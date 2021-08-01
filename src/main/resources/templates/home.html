@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>My page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="/css/home.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/lol.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/3.6.2/fabric.min.js"></script>
+</head>
+<body>
+    <main>
+        <div class="left-block">
+
+            <div class="colors">
+                <button type="button" value="#000000"></button>
+            </div>
+
+            <div class="brushes">
+                <button id="brush" type="button" value="2"></button>
+            </div>
+
+            <div class="buttons">
+                <button value="txt" id="text" type="button">Text</button>
+                <button value="td" id="todo" type="button">Todo</button>
+                <button id="clear" type="button">Lastic</button>
+            </div>
+
+        </div>
+
+        <div class="right-block">
+            <canvas id="paint-canvas" width="640" height="400"></canvas>
+        </div>
+    </main>
+</body>
+</html>
