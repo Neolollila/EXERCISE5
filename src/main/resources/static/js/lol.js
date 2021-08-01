@@ -44,7 +44,7 @@ window.onload = function () {
 
     setInterval(function() {
         getChanges();
-    }, 10000);
+    }, 2000);
     function getChanges() {
         $.ajax({
             url: '/getChange',
